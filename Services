@@ -1,0 +1,7 @@
+# Get all the services on the system 
+ Get-Service
+ 
+ #Get all the services running on the system
+  Get-Service | Where-Object {$_.Status -eq "Running"}
+  
+ # 
